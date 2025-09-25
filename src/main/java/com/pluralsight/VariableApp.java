@@ -16,6 +16,8 @@ public class VariableApp {
         myNum -= 1;
         System.out.println("The result is " + myNum);
 
+//        Step 1
+
 //        1. Declare a variable to store your favorite color
         String myFavColor = "black";
         System.out.println("My favorite color is " + myFavColor);
@@ -35,6 +37,26 @@ public class VariableApp {
 //        5. Declare a variable with a nice message or saying
         String quote = "It always seems impossible until it's done";
         System.out.println(quote);
+
+//        Step 2
+
+//        1. Declare AND initialize variables for:
+
+//        2. The number of days in a week
+        int daysInWeek = 7;
+        System.out.println("There are " + daysInWeek + " days in a week");
+
+//        3. The price of coffee ($4.99)
+        double coffeePrice = 4.99;
+        System.out.println("The price for coffee is " + coffeePrice + "$");
+
+//        4. Your favorite letter
+        char myFavLetter = 'Z';
+        System.out.println("My favorite letter is " + myFavLetter);
+
+//        5. Whether it's raining (true/false)
+        boolean isRaining = false;
+        System.out.println("Is it raining " + isRaining);
 
     }
 }
